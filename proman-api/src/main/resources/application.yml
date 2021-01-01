@@ -9,9 +9,9 @@ spring:
     name: proman-api
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://localhost:5432/pmadb
     username: postgres
-    password: postgres@123
+    password: password
 
   jpa:
     properties:
